@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Catalog</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
@@ -32,21 +35,89 @@
       </ul>
       <section class="filters">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <!-- Здесь будет форма -->
+       <form class="filter" metod="get"
+             action="https://echo.htmlacademy.ru">
+         <fieldset>
+           <legend>Производители:</legend>
+             <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" 
+                        type="checkbox"
+                        name="baxter-of-california" 
+                        id="filter-baxter-of-california"checked>
+                        <label for="filter-baxter-of-california">Baxter of California</label>
+               </li>
+              <li class="filter-option">
+                 <input class="visually-hidden filter-input checkbox"
+                        type="checkbox" 
+                        name="Mr Natty" 
+                        id="filter-mr-natty">
+                 <label for="filter-mr-natty">Mr Natty</label>
+               </li>
+              <li class="filter-option">
+                 <input class="visually-hidden filter-input filter-input-checkbox"
+                        type="checkbox" 
+                        name="Suavecito"
+                        id="filter-Suavecito">
+                 <label for="filter-Suavecito">Suavecito</label> 
+                </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" 
+                       type="checkbox" 
+                       name="Malin+Goetz"
+                       id="filter-malin+goetz" >
+                 <label for="filter-malin+goetz">
+                     Malin+Goetz</label>
+                </li>
+              <li class="filter-option">
+                 <input class="visually-hidden filter-input filter-input-checkbox"
+                        type="checkbox" 
+                        name="American Crew"
+                        id="filter-american-crew" checked>
+                 <label for="filter-american-crew">       
+                      American Crew</label>
+                </li>
+             </ul>          
+          </fieldset>
+         <fieldset>
+           <legend>Группа товаров:</legend>
+             <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio"
+                      type="radio"
+                      name="product-group"
+                      value="shaving"
+                      id="filter-shave">
+                <label for="filter-shave"> Бритвенные принадлежности</label></li>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-radio"
+                      type="radio"
+                      name="product-group"
+                      value="hair-care" 
+                      id="filter-care"checked>
+                <label for="filter-care"> Средства для ухода</label></li>
+              <li class="filter-option">
+               <input class="visually-hidden filter-input filter-input-radio"
+                      type="radio"
+                      name="product-group"
+                      value="accessories"
+                      id="filter-accessories">
+                <label for="filter-accessories"> Аксессуары</label></li>
+              </ul>                       
+         </fieldset>  
+         <button type="submit" class="filter-button button">Показать</button> 
+         </form>   
       </section>
-      
       <section class="catalog">
         <h2 class="visually-hidden">Список средств для ухода</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
+            <a href="catalog-item.html">
             <h3>
-              <a href="catalog-item.html">
                 <span class="catalog-category">Набор для путешествий</span>
                 <span class="catalog-item-title">«Baxter of California»</span>
-              </a>
             </h3>
             <p class="catalog-item-image">
-              <a href="catalog-item.html">
                 <img src="img/product-1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
               </a>
             </p>
