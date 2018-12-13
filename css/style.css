@@ -39,7 +39,7 @@ a {
   background-color: #81b3d2;
   border: none;
 }
-}
+
 .button-more-detailed:hover{
    color:#ffffff;
   background-color: #81b3d2;
@@ -186,7 +186,7 @@ text-align: center;
  background-color: #766357;
  background-image: url("../img/up-form.jpg");
  background-position: 0 0;
- background-repeat: none;
+ 
 }
 
 
