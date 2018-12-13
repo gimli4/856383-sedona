@@ -215,10 +215,6 @@ text-align: center;
   list-style: none;
 }
 
-.catalog li {
-   
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
-}
 
 .catalog a {
 
@@ -270,12 +266,3 @@ text-align: center;
   text-align: right;
 }
 /*--------сеточные стили---------------*/
-
-.inner-page .main-header{
-  height: 55px;
-
-}
-
-.main-navigation .container{
-   height: 55px;
-}
