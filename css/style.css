@@ -10,10 +10,11 @@ body {
   text-transform: uppercase;
 
     background-color:  #ffffff;
-  background-image: url("img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
+
 
 a {
   text-decoration: none;
@@ -117,7 +118,7 @@ a {
   color: #000000;
 
   background-color: #ffffff;
-  background-image: url("img/patern-light.jpg");
+  background-image: url("../img/patern-light.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -183,7 +184,7 @@ text-align: center;
  line-height: 26px;
 
  background-color: #766357;
- background-image: url("img/up-form.jpg");
+ background-image: url("../img/up-form.jpg");
  background-position: 0 0;
  background-repeat: none;
 }
@@ -249,7 +250,7 @@ text-align: center;
   color: #000000;
 
   background-color: #f9fbf6;
-  background-image: url("img/main-footer.jpg");
+  background-image: url("../img/main-footer.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -267,4 +268,14 @@ text-align: center;
 
 .footer-copyright {
   text-align: right;
+}
+/*--------сеточные стили---------------*/
+
+.inner-page .main-header{
+  height: 55px;
+
+}
+
+.main-navigation .container{
+   height: 55px;
 }
