@@ -1,20 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
+	padding: 0;
+	margin: 0;
 
-  font-family: "PT Sans Narrow", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 26px;
-  font-weight: 700;
-  color: #000000;
-  text-transform: uppercase;
+font-family: "PT Sans";	
+font-size: 14px;
+line-height: 26px;
+font-weight: 700;
+color: #000000;
+text-transform: uppercase;
 
-    background-color:  #ffffff;
-  background-image: url("../img/bg.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+background-color: #f2f2f2;
+background-position: top center;
+background-repeat: no-repeat;
 }
-
 
 a {
   text-decoration: none;
@@ -22,247 +20,182 @@ a {
 
 .button {
   font: inherit;
- 
+
   text-align: center;
-  color: #ffffff;
-  /*vertical-align: middle;*/
+  color: #000000;
+  vertical-align: middle;
   text-transform: uppercase;
-  background-color: #81b3d2;
+
+
   border: none;
 }
 
-.button-more-detailed {
-  color:#ffffff;
-  font-size: 14px;
-  line-height: 21px;
-  
-  background-color: #81b3d2;
-  border: none;
-}
-
-.button-more-detailed:hover{
-   color:#ffffff;
-  background-color: #81b3d2;
-  
-}
-
-.button-more-detailed:focus{
-   color:#ffffff;
-  background-color: #669ec0;
-}
-
-.button-more-detailed:active{
-  color:#88b6d1;
-  background-color: #5496bd;
-}
-
-.button-up{
- color:#ffffff;
- font-size: 14px;
- line-height: 21px;
-
- background-color:#766357;
- border: none;
-}
-
-.button-up:hover{
-   color:#ffffff;
-  background-color: #766357;
-  
-}
-
-.button-up:focus{
-   color:#ffffff;
-  background-color: #604e43;
-}
-
-.button-up:active{
-  color:#857871;
-  background-color: #503e33;
-}
 
 .main-navigation {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
-  color: #000000;
+  color: #ffffff;
 
   background-color: #ffffff;
 }
 
-.site-navigation,
-.user-navigation {
+.site-navigation {
   list-style: none;
 }
-
-.site-navigation a,
-.user-navigation a {
+.site-navigation a {
   color: #000000;
 }
 
-.site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
-  background-color: #81b3d2;
+.site-navigation a:hover {
+	background-color: #81b3d2
+}
+
+
+.site-navigation a:focus {
+	background-color: #81b3d2
 }
 
 .features-list {
   list-style: none;
+   background-image: url("../img/up-stand.jpg");
+   background-color:#ffffff;
 }
 
 .feature-item {
   text-align: center;
 }
 
-.index-columns {
-  color: #000000;
-
-  background-color: #ffffff;
-  background-image: url("../img/patern-light.jpg");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
 .feature-item h3 {
   font-size: 21px;
   line-height: 26px;
+  font-weight: bold;
 }
 
 .feature-item p {
-  color: #a7a7a7;
+  color:#b2b2b2;
   font-size: 14px;
   line-height: 26px;
-  font-family: "myriad pro";
+  
 }
-
-.interested {
-  text-align:center;
-}
-.interested h2{
-  font-size: 30px;
-  line-height: 36px;
-}
-
-.interested p {
-  color: #a7a7a7;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "myriad pro";
-}
-
-
-.appointment {
-
-text-align: center;
- color: #ffffff;
- font-size: 21px;
- line-height: 26px;
-
-
-}
-
-.appointment h2 {
-  font-size: 30px;
-  line-height: 36px;
-}
-.appointment p {
-  color: #000000;
-  font-size: 14px;
-  line-height: 24px;
-  font-family: "myriad pro";
-}
-
-.modal {
-  text-align: center
-}
-
-.search-form  {
-
- text-align: center;
- color: #ffffff;
- font-size: 21px;
- line-height: 26px;
-
- background-color: #766357;
- background-image: url("../img/up-form.jpg");
- background-position: 0 0;
- 
-}
-
-
-.appointment-item p {
-  font: inherit;
+.index-columns {
   color:#000000;
-  background-color: transparent;
-  border: 2px solid #000000;
+  font-size: 14px;
+  line-height: 26px;
+
+  background-color: #ffffff;
+  text-align: center;
+
+}
+
+.search-form {
+	color:#ffffff;
+	 font-size: 14px;
+    line-height: 26px;
+
+	background-color: #766357;
+}
+
+.search-form:hover{
+	background-color: #604e43
+}
+.search-form:focus{
+	background-color: #604e43
+}
+.search-form:active{
+	background-color: #503e33
+}
+
+.appointment-form {
+	color:#000000;
+	font-size: 14px;
+	line-height: 26px;
+
+	background-color: #ffffff; 
+}
+
+.button-find {
+	color:#ffffff;
+	font-size: 21px;
+	line-height: 26px;
+
+	background-color: #81b3d2;
+}
+.button-find:hover{
+	background-color: #669ec0
+}
+.button-find:focus{
+	background-color: #669ec0
+}
+.button-find:active{
+	background-color: #5496bd
+}
+
+.appointment-item input {
+    font: inherit;
+
+
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
 }
 
 .appointment-item input:hover {
-  background-color: #f2f2f2;
+  background-color: #ebebeb;
 }
 
 .appointment-item input:focus {
-  border-color: #ffffff;
-}
-
-
-.appointment-item input:active {
+  background-color: #ffffff; 
   border-color: #ebebeb;
 }
 
-.catalog-list {
-
-  list-style: none;
-}
-
-
-.catalog a {
-
-  color: #000000;
-  font: inherit;
-  font-size: 21px;
- line-height: 26px;
-  }
-
- .catalog a:hover {
-  color: #81b3d2;
- }
- .catalog a:focus {
-  color: #b2b2b2;
- }
- .catalog a:active {
-  color:#000000;
- }
-
- .catalog p{
-  color: #848484;
-  font: inherit;
-  font-size: 14px;
- line-height: 21px;
- }
-
 
 .main-footer {
-  color: #000000;
+	color:#000000;
 
   background-color: #f9fbf6;
   background-image: url("../img/main-footer.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
+
+.footer-contacts{
+	color: #000000;
+	text-decoration: none;
+}
+
 .footer-social {
   text-align: center;
 }
- 
+
 .footer-social ul {
   list-style: none;
 }
 
 .social-button {
-  color:#81b3d2;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+.social-button:hover{
+	background-color: #669ec0
+}
+.social-button:focus{
+	background-color: #669ec0
+}
+.social-button:active{
+	background-color: #5496bd
 }
 
-.footer-copyright {
-  text-align: right;
+.footer-copyright{
+	color:#000000;
+	text-align: center;
+
 }
-/*--------сеточные стили---------------*/
+
+.footer-copyright:hover{
+	background-color: #669ec0
+}
+.footer-copyright:focus{
+	background-color: #669ec0
+}
+.footer-copyright:active{
+	background-color: #bdbbbc
+}
