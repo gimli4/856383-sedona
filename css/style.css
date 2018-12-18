@@ -55,6 +55,12 @@ a {
 	background-color: #81b3d2
 }
 
+.site-navigation a:active {
+	background-color: #b2b2b2
+}
+
+
+
 .features-list {
   list-style: none;
    background-image: url("../img/up-stand.jpg");
@@ -198,4 +204,83 @@ a {
 }
 .footer-copyright:active{
 	background-color: #bdbbbc
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  background-color: #fefefe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+}
+.catalog-item a{
+ color:#000000;
+ font-size: 21px;
+ line-height: 26px;
+
+list-style: none
+}
+
+.catalog-item a:hover{
+	color:#81b3d2;
+}
+
+.catalog-item a:focus{
+	color:#81b3d2;
+}
+
+.catalog-item a:active{
+	color:#b2b2b2;
+}
+
+.catalog-item p{
+  color:#333333;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.button-more-detailed {
+	color:#ffffff;
+	font-size: 14px;
+  line-height: 21px;
+
+  background-color: #81b3d2;
+
+}
+
+.button-more-detailed:hover{
+
+	background-color: #669ec0;
+}
+.button-more-detailed:focus{
+
+	background-color: #669ec0;
+}
+
+.button-more-detailed:active{
+	color:#7aadcb;
+	background-color: #5496bd;
+}
+
+.button-up{
+	color:#ffffff;
+	font-size: 14px;
+  line-height: 21px;
+
+  background-color: #766357;
+
+}
+.button-up:hover{
+
+	background-color: #604e43;
+}
+.button-up:focus{
+
+	background-color: #604e43;
+}
+
+.button-up:active{
+	color:#857871;
+	background-color: #503e33;
 }
