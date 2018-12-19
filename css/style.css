@@ -2,7 +2,7 @@ body {
 	padding: 0;
 	margin: 0;
 
-font-family: "PT Sans";	
+font-family: "PT Sans", sans-serif;	
 font-size: 14px;
 line-height: 26px;
 font-weight: 700;
@@ -19,7 +19,8 @@ a {
 }
 
 .button {
-  font: inherit;
+font-family: "PT Sans", sans-serif;	
+font-weight: 700; 
 
   text-align: center;
   color: #000000;
@@ -39,6 +40,7 @@ a {
   background-color: #ffffff;
 }
 
+
 .site-navigation {
   list-style: none;
 }
@@ -47,16 +49,21 @@ a {
 }
 
 .site-navigation a:hover {
-	background-color: #81b3d2
+	color: #81b3d2
 }
 
 
 .site-navigation a:focus {
-	background-color: #81b3d2
+	color: #81b3d2
 }
 
 .site-navigation a:active {
-	background-color: #b2b2b2
+	color: #b2b2b2
+}
+
+
+.link-active a:visited {
+	color: #766357;
 }
 
 
@@ -95,7 +102,7 @@ a {
 
 .search-form {
 	color:#ffffff;
-	 font-size: 14px;
+	 font-size: 21px;
     line-height: 26px;
 
 	background-color: #766357;
@@ -137,8 +144,12 @@ a {
 }
 
 .appointment-item input {
-    font: inherit;
 
+font-family: "PT Sans", sans-serif;	
+font-size: 14px;
+line-height: 26px;
+font-weight: 700;
+color: #000000;
 
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
@@ -158,8 +169,6 @@ a {
 	color:#000000;
 
   background-color: #f9fbf6;
-  background-image: url("../img/main-footer.jpg");
-  background-position: 0 0;
   background-repeat: repeat;
 }
 
