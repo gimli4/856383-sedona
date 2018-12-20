@@ -199,21 +199,27 @@ color: #000000;
 	background-color: #5496bd
 }
 
-.footer-copyright{
+.footer-copyright {
 	color:#000000;
 	text-align: center;
+	list-style: none;
 
 }
 
-.footer-copyright:hover{
-	background-color: #669ec0
+
+.footer-copyright a:hover{
+	color: #81b3d2
 }
-.footer-copyright:focus{
-	background-color: #669ec0
+
+.footer-copyright a:focus{
+	color: #81b3d2
 }
-.footer-copyright:active{
-	background-color: #bdbbbc
+
+.footer-copyright a:active{
+	color: #bdbbbc
 }
+
+
 
 .catalog-list {
   list-style: none;
