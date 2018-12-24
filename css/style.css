@@ -67,10 +67,13 @@ font-weight: 700;
 }
 
 
+.features-wrapper{
+	min-height: 260px;
+	   background-image: url("../img/up-stand.jpg");
 
+}
 .features-list {
   list-style: none;
-   background-image: url("../img/up-stand.jpg");
    background-color:#ffffff;
 }
 
@@ -91,6 +94,7 @@ font-weight: 700;
   
 }
 .index-columns {
+
   color:#000000;
   font-size: 14px;
   line-height: 26px;
@@ -200,12 +204,13 @@ color: #000000;
 }
 
 .footer-copyright {
+
 	color:#000000;
 	text-align: center;
 
 
 }
-.footer-copyright a{
+.button-copyright {
 	color:#000000;
 	text-decoration: none;
 }
@@ -231,7 +236,7 @@ color: #000000;
 
 .catalog-item {
   background-color: #fefefe;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+  
 }
 .catalog-item a{
  color:#000000;
@@ -303,3 +308,80 @@ list-style: none
 	color:#857871;
 	background-color: #503e33;
 }
+
+/*-------------------------------------------------------------*/
+
+body{
+	margin:0px 40px;
+ min-width: 1280px;
+  min-height: 2763px;
+}
+.main-header {
+	min-height:60px;
+	width:1200px;
+	margin:0 auto;
+}
+.main-navigation{
+	display:flex;
+	justify-content:flex-start; 
+
+}	
+
+}
+.main-heder-logo{
+	width: 140px;
+  height: 72px;
+}
+
+  .container{
+  	width:1200px;
+  	margin:0 auto;
+
+  }
+
+.features-list{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin:0;
+	padding:0;
+}
+.feature-item{
+	width:636px;
+	height: 42px;
+
+}
+
+.index-columns{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin:0;
+	padding:0;
+  min-height:300px;
+}
+.main-footer{
+	display: flex;
+	justify-content:space-around;  
+}
+.footer-copyright{
+	width:120px;
+}
+.footer-social{
+	width:120px;
+}
+.footer-copyright{
+	width:140px;
+}
+
+
+
+
+.catalog-column{
+	display-flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
