@@ -108,6 +108,7 @@ font-weight: 700;
 	color:#ffffff;
 	 font-size: 21px;
     line-height: 26px;
+    font-weight: bold;
 
 	background-color: #766357;
 }
@@ -361,6 +362,35 @@ body{
 	padding:0;
   min-height:300px;
 }
+
+
+
+}
+.appointment-form{
+	width: 568px;
+  height: 395px;
+
+}
+
+.interested{
+
+  height: 286px;
+
+}
+
+.search-form{
+
+	width: 568px;
+  height: 86px;
+
+}
+
+.button-find{
+	width: 458px;
+  height: 58px;
+
+}
+
 .main-footer{
 	display: flex;
 	justify-content:space-around;  
